@@ -1,0 +1,32 @@
+{
+  "questId": "awakening",
+  "title": "Awakening",
+  "description": "You open your eyes in a strange world. A mysterious box speaks to you.",
+  "repeatable": false,
+  "startDialogue": "introduction",
+  "tasks": [
+    {
+      "taskId": "listen_to_box",
+      "type": "dialogue_choice",
+      "description": "Listen to what the Pandora's Box has to say",
+      "requiredChoice": -1,
+      "required": 1
+    },
+    {
+      "taskId": "gather_wood",
+      "type": "break_block",
+      "description": "Gather 5 Oak Logs",
+      "blockType": "minecraft:oak_log",
+      "required": 5
+    }
+  ],
+  "rewards": [
+    {
+      "rewardId": "starter_xp",
+      "type": "experience",
+      "amount": 50
+    }
+  ],
+  "onCompletionDialogue": "awakening_complete",
+  "nextQuestId": "first_trial"
+}

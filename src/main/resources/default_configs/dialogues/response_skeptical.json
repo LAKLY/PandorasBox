@@ -1,0 +1,14 @@
+{
+  "treeId": "response_skeptical",
+  "startNode": "node1",
+  "nodes": {
+    "node1": {
+      "id": "node1",
+      "speaker": "Pandora",
+      "text": "A dream, you say. We shall see how long you keep believing that.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

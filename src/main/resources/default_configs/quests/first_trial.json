@@ -1,0 +1,23 @@
+{
+  "questId": "first_trial",
+  "title": "The First Trial",
+  "description": "Prove yourself worthy by defeating a hostile creature.",
+  "repeatable": false,
+  "tasks": [
+    {
+      "taskId": "kill_zombie",
+      "type": "kill_entity",
+      "description": "Defeat a Zombie",
+      "entityType": "minecraft:zombie",
+      "required": 1
+    }
+  ],
+  "rewards": [
+    {
+      "rewardId": "trial_xp",
+      "type": "experience",
+      "amount": 100
+    }
+  ],
+  "onCompletionDialogue": "first_trial_complete"
+}

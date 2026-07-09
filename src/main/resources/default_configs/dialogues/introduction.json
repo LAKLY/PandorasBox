@@ -1,0 +1,81 @@
+{
+  "treeId": "introduction",
+  "startNode": "start",
+  "nodes": {
+    "start": {
+      "id": "start",
+      "speaker": "Narrator",
+      "text": "You slowly regain consciousness...",
+      "duration": 3,
+      "type": "NARRATOR",
+      "nextNode": "pandora_intro"
+    },
+    "pandora_intro": {
+      "id": "pandora_intro",
+      "speaker": "Pandora",
+      "text": "Hello there. I've been waiting for you.",
+      "duration": 3,
+      "type": "AMBIENT",
+      "nextNode": "pandora_purpose"
+    },
+    "pandora_purpose": {
+      "id": "pandora_purpose",
+      "speaker": "Pandora",
+      "text": "I am Pandora's Box. I have pulled you into this world for a purpose.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "choices": [
+        {
+          "id": 0,
+          "text": "Who are you? Why am I here?",
+          "nextNode": "response_curious",
+          "onSelectQuestTaskId": "listen_to_box"
+        },
+        {
+          "id": 1,
+          "text": "This is a dream. I'm going back to sleep.",
+          "nextNode": "response_skeptical",
+          "onSelectQuestTaskId": "listen_to_box"
+        },
+        {
+          "id": 2,
+          "text": "I will do whatever you ask.",
+          "nextNode": "response_obedient",
+          "onSelectQuestTaskId": "listen_to_box"
+        }
+      ]
+    },
+    "response_curious": {
+      "id": "response_curious",
+      "speaker": "Pandora",
+      "text": "Curiosity. Good. That will keep you alive longer than most.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": "end"
+    },
+    "response_skeptical": {
+      "id": "response_skeptical",
+      "speaker": "Pandora",
+      "text": "A dream, you say. We shall see how long you keep believing that.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": "end"
+    },
+    "response_obedient": {
+      "id": "response_obedient",
+      "speaker": "Pandora",
+      "text": "Obedience. How... convenient. Let's see if that lasts.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": "end"
+    },
+    "end": {
+      "id": "end",
+      "speaker": "Pandora",
+      "text": "Now, go. Prove yourself worthy.",
+      "duration": 3,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

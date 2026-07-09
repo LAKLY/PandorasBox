@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "eventId": "first_stone_break",
+      "triggerType": "block_broken",
+      "blockType": "minecraft:stone",
+      "dialogueId": "first_stone_comment",
+      "isOneTime": true
+    }
+  ]
+}

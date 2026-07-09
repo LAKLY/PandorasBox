@@ -1,0 +1,9 @@
+{
+  "item.pandorasbox.pandora_box": "Pandora's Box",
+  "item.pandorasbox.pandora_box.tooltip": "It watches. It waits. It remembers.",
+  "item.pandorasbox.pandora_box.tooltip.hint": "Shift + Right Click to view your quests",
+  "itemGroup.pandorasbox.main": "Pandora's Box",
+  "screen.pandorasbox.quest_log": "Pandora's Tasks",
+  "screen.pandorasbox.no_quests": "No active quests",
+  "gui.pandorasbox.close": "Close"
+}

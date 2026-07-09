@@ -1,0 +1,9 @@
+{
+  "initialDialogue": "introduction",
+  "initialQuest": "awakening",
+  "deathDialogues": [
+    "death_comment_1",
+    "death_comment_2",
+    "death_comment_3"
+  ]
+}

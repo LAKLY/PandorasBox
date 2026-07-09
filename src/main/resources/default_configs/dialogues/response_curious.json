@@ -1,0 +1,22 @@
+{
+  "treeId": "response_curious",
+  "startNode": "node1",
+  "nodes": {
+    "node1": {
+      "id": "node1",
+      "speaker": "Pandora",
+      "text": "Curiosity. Good. That will keep you alive longer than most.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": "node2"
+    },
+    "node2": {
+      "id": "node2",
+      "speaker": "Pandora",
+      "text": "Gather wood, and I will explain more as you prove yourself.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

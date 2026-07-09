@@ -1,0 +1,9 @@
+{
+  "item.pandorasbox.pandora_box": "Ящик Пандоры",
+  "item.pandorasbox.pandora_box.tooltip": "Он наблюдает. Он ждёт. Он помнит.",
+  "item.pandorasbox.pandora_box.tooltip.hint": "Shift + ПКМ, чтобы открыть журнал заданий",
+  "itemGroup.pandorasbox.main": "Ящик Пандоры",
+  "screen.pandorasbox.quest_log": "Задания Пандоры",
+  "screen.pandorasbox.no_quests": "Нет активных заданий",
+  "gui.pandorasbox.close": "Закрыть"
+}

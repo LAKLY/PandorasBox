@@ -1,0 +1,22 @@
+{
+  "treeId": "first_trial_complete",
+  "startNode": "node1",
+  "nodes": {
+    "node1": {
+      "id": "node1",
+      "speaker": "Pandora",
+      "text": "You survived. Barely. But you survived.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": "node2"
+    },
+    "node2": {
+      "id": "node2",
+      "speaker": "Pandora",
+      "text": "There will be worse things than zombies waiting for you.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "treeId": "first_stone_comment",
+  "startNode": "node1",
+  "nodes": {
+    "node1": {
+      "id": "node1",
+      "speaker": "Pandora",
+      "text": "Breaking stone with your bare hands. Resourceful, in a primitive sort of way.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

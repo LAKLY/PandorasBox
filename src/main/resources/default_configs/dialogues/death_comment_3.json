@@ -1,0 +1,14 @@
+{
+  "treeId": "death_comment_3",
+  "startNode": "node1",
+  "nodes": {
+    "node1": {
+      "id": "node1",
+      "speaker": "Pandora",
+      "text": "That looked painful. I felt nothing, of course. I never do.",
+      "duration": 4,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}

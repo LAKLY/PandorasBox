@@ -1,0 +1,14 @@
+{
+  "treeId": "awakening_start",
+  "startNode": "start",
+  "nodes": {
+    "start": {
+      "id": "start",
+      "speaker": "Pandora",
+      "text": "You have been chosen. Complete the tasks to prove your worth.",
+      "duration": 3,
+      "type": "AMBIENT",
+      "nextNode": null
+    }
+  }
+}
